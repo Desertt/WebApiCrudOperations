@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.421
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programming.DAL", "Programming.DAL\Programming.DAL.csproj", "{D2A914E2-9E97-44A0-BB45-D5BE685EFBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Programming.API", "Programming.API\Programming.API.csproj", "{477817EB-5AFC-4697-AB72-F62D4CF1CE9F}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D2A914E2-9E97-44A0-BB45-D5BE685EFBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2A914E2-9E97-44A0-BB45-D5BE685EFBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2A914E2-9E97-44A0-BB45-D5BE685EFBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2A914E2-9E97-44A0-BB45-D5BE685EFBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{477817EB-5AFC-4697-AB72-F62D4CF1CE9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{477817EB-5AFC-4697-AB72-F62D4CF1CE9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{477817EB-5AFC-4697-AB72-F62D4CF1CE9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{477817EB-5AFC-4697-AB72-F62D4CF1CE9F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
